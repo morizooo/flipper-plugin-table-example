@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.flipper">
+
+    <application
+        android:name=".DebugApplication"
+        tools:replace="android:name">
+        <activity
+            android:name="com.facebook.flipper.android.diagnostics.FlipperDiagnosticActivity"
+            android:exported="true" />
+    </application>
+</manifest>
